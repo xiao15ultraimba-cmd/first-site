@@ -1,0 +1,574 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 70px;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-element {
+    display: inline;
+
+    width: 772px;
+    height: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #263238;
+
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.talk-button {
+    background-color: white;
+    box-sizing: border-box;
+
+    width: 220px;
+    height: 70px;
+
+    border: 2px solid #263238;
+    border-radius: 5px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000000;
+    cursor: pointer;
+}
+
+.header-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title {
+    width: 386px;
+    height: 240px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #000000;
+}
+
+.content-text {
+    width: 632px;
+    height: 108px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #8F95A5;
+    
+    margin-top: 55px;
+}
+
+.get-button {
+    width: 438px;
+    height: 118px;
+
+    background: #263238;
+    border-radius: 15px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #FFFFFF;
+
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-title {
+    width: 124px;
+    height: 80px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+
+    color: #000000;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.skills-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-card {
+    width: 484px;
+    height: 523px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 25px;
+}
+
+.skill-card-image1 {
+    width: 382px;
+    height: 255px;
+
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.skill-card-title {
+    width: 137px;
+    height: 80px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+
+    color: #263238;
+
+    margin-bottom: 3px;
+    margin-left: 44px;
+}
+
+.skill-card-text {
+    width: 400px;
+    height: 72px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #8F95A5;
+
+    margin-left: 44px;
+}
+
+.learn-more-button {
+    width: 218px;
+    height: 60px;
+    background-color: #263238;
+    border-radius: 7px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+    margin-top: 15px;
+    margin-left: 44px;
+    cursor: pointer;
+}
+
+.card-img2 {
+    height: 255px;
+    margin-left: 170px;
+}
+
+.card-img3 {
+    height: 255px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 122px;
+}
+
+.about-us-info {
+    margin-right: 175px;
+}
+
+.about-us-image {
+    margin-left: 175px;
+}
+
+.about-us-info-title {
+    width: 219px;
+    height: 80px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+
+    color: #000000;
+    
+    margin-top: 24px;
+}
+
+.about-us-info-text {
+    width: 635px;
+    height: 240px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #8F95A5;
+
+    margin-top: 67px;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+.pricing-title {
+    width: 169px;
+    height: 80px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+
+    color: #000000;
+}
+
+.pricing-cards {
+    display: flex;
+}
+
+.pricing-card {
+    width: 418px;
+    height: 620px;
+
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.pricing-card-img1 {
+    margin-left: 21px;
+}
+
+.pricing-card-img2 {
+    height: 311px;
+}
+
+.pricing-card-img3 {
+    height: 311px;
+}
+
+.pricing-card-title {
+    width: 372px;
+    height: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+
+    color: #263238;
+
+    margin-top: 38px;
+}
+
+.pricing-card-text {
+    width: 419px;
+    height: 90px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #8F95A5;
+
+    margin-top: 29px;
+}
+
+.pricing-card-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 240px;
+    height: 45px;
+
+    background: #EEEEEE;
+    border-radius: 5px;
+
+    margin-top: 40px;
+}
+
+.price {
+    width: 90px;
+    height: 45px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #263238;
+}
+
+.price-time {
+    width: 100px;
+    height: 27px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #546269;
+}
+
+.contaсt-us {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 113px;
+}
+
+.contact-us-info-title {
+    width: 269px;
+    height: 80px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+
+    color: #000000;
+
+    margin-top: 40px;
+}
+
+.contact-us-info-text {
+    width: 776px;
+    height: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #8F95A5;
+
+    margin-top: 40px;
+}
+
+.contact-input {
+    margin-top: 62px;
+
+}
+
+.contact-input {
+    box-sizing: border-box;
+
+    width: 450px;
+    height: 80px;
+
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #8F95A5;
+
+    padding-left: 20px;
+    margin-left: 5px;
+}
+
+.contact-us-submit-button {
+    width: 264px;
+    height: 80px;
+
+    background: #263238;
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 60px;
+}
+
+.footer-info {
+    width: 1338px;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.line {
+    width: 1338px;
+    height: 2px;
+
+    background: #C4C4C4;
+}
+
+.footer-menu {
+    display: flex;
+
+    width: 776px;
+    height: 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #8F95A5;
+
+    margin-right: -140px;
+}
+
+.menu-element {
+    cursor: pointer;
+
+    margin-left: 6px;
+}
+
+.burger_icon{
+    max-width: 20%;
+    display: none;
+}
+
+
+@media screen and (max-width: 1366px) {
+    .skills-cards{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50;
+    }
+
+    .pricing-cards{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .skills-cards{
+        display: grid;
+        grid-template-rows: 50% 50% 50%;
+    }
+    
+    .pricing-cards{
+        display: grid;
+        grid-template-columns: 50% ;
+        grid-template-rows: 40% 40% 40%;
+    }
+    
+    .burger_icon{
+    display: block;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .burger{
+        margin-left: 200px;
+    }
+
+    .header-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills-cards {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 122px;
+    }
+
+    .contaсt-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+    }
+    
+    .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    }
+}
